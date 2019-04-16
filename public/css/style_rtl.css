@@ -1,0 +1,44 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .carousel-head-content {
+        text-align: center
+    }
+    .footer {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header-blog .blog-content .page-title h2 {
+        line-height: 60px
+    }
+    .tab-recentposts .nav-tabs>li>a {
+        font-size: 15px
+    }
+    .NFpage .NFpage-content .sepa {
+        width: 50px;
+        height: 50px
+    }
+    .footer {
+        text-align: center;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .NFpage .NFpage-content .page-title h2 {
+        font-size: 9em
+    }
+    .NFpage .NFpage-content .sepa {
+        width: 80px;
+        height: 80px
+    }
+    .button-NFpage a {
+        margin: 10px;
+    }
+    .footer {
+        text-align: center;
+    }
+}
