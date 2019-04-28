@@ -3,7 +3,10 @@
 @section('content')
 
 @if (Auth::guest())
-@include('auth.login')
+
+        @include('auth.login')
+
+
 
 @else
 @include('home')

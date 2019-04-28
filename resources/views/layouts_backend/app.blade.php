@@ -15,7 +15,11 @@
 </head>
 <body>
     <div id="app">
-        @include('inc_backend.navbar')
+
+          
+            @include('inc_backend.navbar')
+            
+         
         <div class="container">
             @include('inc_backend.messages')
             @yield('content')

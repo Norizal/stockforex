@@ -14,7 +14,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Page Title -->
-    <title>Overpips - All In Application For Forex Trader</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

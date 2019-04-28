@@ -11,18 +11,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/" title="appnova"><img src="{{ asset('img/logo/logo.png') }}" alt="Overpips"></a>
+                <a class="navbar-brand" href="/" title="appnova">  @foreach($icons as $icon)
+                    <img src="/storage/icon/{{ $icon->icon_image }}" width="200px">
+                  @endforeach</a>
             </div>
             <!-- / navbar-header -->
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="/"><span>Home</span></a></li>
-                    <li><a href="about-us.html"><span>About Us</span></a></li>
-                    <li><a href="#about"><span>How it Works</span></a></li>
+                    <li><a href="#about"><span>About Us</span></a></li>
+                    <li><a href="#work"><span>How it Works</span></a></li>
                     <li><a href="#screenshots"><span>Screenshot</span></a></li>
                     <li><a href="#download"><span>Download</span></a></li>
                     <li><a href="#pricing-table"><span>Pricing</span></a></li>
-                    <li><a href="summary-results-year.html"><span>Summary</span></a></li>
+                    {{--  <li><a href="summary-results-year.html"><span>Summary</span></a></li>  --}}
                 </ul>
             </div>
             <!-- end nav-collapse -->
