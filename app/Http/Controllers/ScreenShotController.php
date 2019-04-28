@@ -97,7 +97,7 @@ class ScreenShotController extends Controller
             return redirect('/login-admin-panelpage')->with('error', 'Unauthorized Page!');    
         }
 
-        return view('pages_backend.mv.mobile.edit')->with('screenshot',$screenshot);
+        return view('pages_backend.screenshot.edit')->with('screenshot',$screenshot);
     }
 
     /**
